@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./ht.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.box {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 320px;
+    width: 600px;
+    background-color: #fff;
+    border-radius:  90px;
+    box-shadow:25px 25px 25px #00000060;
+}
+
+.right {
+    width: 60%;
+}
+
+.gg {
+    width: 85px;
+    height: 27px;
+    position: absolute;
+    top: 5%;
+    left: 55%;
+}
+
+.user-icon {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 30px;
+    margin-left: 25px;
+    margin-top: 230px;
+    color: #fff;
+}
+
+.left {
+    width: 35%;
+    background-color: #55afb3;
+    border-radius: 90px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+
+input {
+    display: flex;
+    border: none;
+    border-bottom: 2px solid #3e7b7e;
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+}
+
+label {
+    font-size: 13px;
+    margin-right: 250px;
+    margin-top: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 70%;
+    left: 53%;
+    width: 110px;
+    border: none;
+    border-radius: 30px;
+    background: #428083;
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #449297;
+    content: '';
+    transition: 0.5s;
+}
+
+span {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 35px;
+    font-size: 13px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+
+}
+
+a {
+    display: flex;
+    margin-top: 0px;
+    margin-left: 6px;
+    font-size: 12px;
+}
+
+h2 {
+    position: absolute;
+    left: 91%;
+    top: 18px;
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3e7b7e;
+    cursor: pointer;
+}
